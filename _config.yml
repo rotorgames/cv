@@ -1,0 +1,189 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Kirill Lyubimov
+title: Senior Mobile Developer
+email: dev.lyubimov.kirill@gmail.com
+website: www.lkirill.com
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: kirillrg
+github_username: rotorgames
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: kirill-lyubimov-06a68712b
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Kirill and I'm a senior mobile developer. 
+  
+  8+ years of work experience as a software developer.
+
+  6+ years experience in mobile development for Android, iOS (Xamarin, Xamarin.Forms)
+
+  Autor of [the popular library for Xamarin.Forms](https://github.com/rotorgames/Rg.Plugins.Popup){:target="_blank"}.
+  
+  Contributor of Xamarin.Forms.
+
+  Experience in Microsoft development stack.
+
+  My skils: <mark>C#</mark> <mark>Xamarin.Forms</mark> <mark>Xamarin</mark> <mark>CI/CD</mark> <mark>Design Patterns</mark> <mark>Programming Techniques</mark>.
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Rg.Plugins.Popup
+        link: github.com/rotorgames/Rg.Plugins.Popup
+        quote: >
+          This is probably one of the most popular Xamarin.Forms library so far.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way to bring popups in Xamarin.Forms. 
+
+          I even couldn't imagine that the project would become so popular and achive more then [![NuGet Downloads](https://img.shields.io/nuget/dt/rg.plugins.popup?color=black&label=%20)](https://www.nuget.org/packages/Rg.Plugins.Popup/){:target="_blank"} downloads and [![GitHub Stars](https://img.shields.io/github/stars/rotorgames/rg.plugins.popup?color=black&label=%20)](https://github.com/rotorgames/Rg.Plugins.Popup){:target="_blank"} stars on GitHub.
+          
+          If you don't have a project as awesome as this I would advise you to make one.
+      - layout: left
+        title: Rg.DiffUtils
+        link: github.com/rotorgames/Rg.DiffUtils
+        quote: >
+          This is a result of my passionate diving through algorithms.
+        description: | # this will include new lines to allow paragraphs
+          The library is an implementation of Eugene W. Myers's algorithm which allows finding differences and movements in collections.
+
+          My goal was to bring a simple and powerful way at the same time to merge collections without useless redraws of UI in .NET
+
+          I was inspired by AndroidX.DiffUtil when creating the library.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Shping
+        link: shping.com
+        # link_text: boringcompany.com
+        sub_title: Senior Mobile Developer
+        caption: April 2017 - Present
+        quote: >
+          Designing and developing Xamarin.Forms application, configuring CI/CD, creating packages and etc.
+        description: | # this will include new lines to allow paragraphs
+          Working at Shping I had the pleasure of getting to know technologies such as barcode scanning, drawing via SkiaSharp, machine learning with Google ML Kit, Blockchain, etc.
+
+          Also, I bint a lot of libraries from java/objective-c to CSharp for internal usage, and developed an extension of Visual Studio For Mac which updates localizable resources.
+
+          Shping is an amazing place where I can develop and discover new things.
+      - layout: left
+        title: Incredible Artstudio
+        link: incredibleart.ru
+        # link_text: boringcompany.com
+        sub_title: Mobile Developer
+        caption: February 2017 - April 2017
+        quote: >
+          Designing and developing Xamarin.Forms application as a Freelancer
+        description: | # this will include new lines to allow paragraphs
+          Developing the application with Xamarin.Forms for streaming live TV and archive. Integration with API Middleware, testing.
+      - layout: left
+        title: ITECHNET Ltd.
+        link: freshwindhotel.ru
+        # link_text: boringcompany.com
+        sub_title: Mobile Developer
+        caption: September 2016 - February 2017
+        quote: >
+          Designing, developing and publishing Xamarin.Forms application as a Freelancer
+        description: | # this will include new lines to allow paragraphs
+          Creating an application for the Hotel with Xamarin.Forms, testing, publishing and contributing to the application.
+          Also, I took care of all work around the documentation for backend developers.
+
+          [Google Play](https://play.google.com/store/apps/details?id=ru.rotorgames.freshwind)
+          [App Store](https://itunes.apple.com/ru/app/id1185871011?mt=8)
+      - layout: left
+        title: Freelance Work
+        # link_text: boringcompany.com
+        sub_title: Mobile Developer
+        caption: January 2014 - September 2016
+        quote: >
+          Designing, developing and publishing Xamarin.Forms application as a Freelancer
+        description: | # this will include new lines to allow paragraphs
+          During 2014-2016 I was working on several Xamarin.Forms and phonegap projects as Freelancer. 
+          I got more experience around Xamarin.Forms, Google Maps, Couchbase Lite, Syncfusion, offline work and etc.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Astrakhan State Technical University
+        caption: 2021 - Present
+        sub_title: Informatics and computer technology.
+        quote: >
+          Established in 1930, Astrakhan State Technical University is one of the oldest higher education institutions in the country.
+        description: | # this will include new lines to allow paragraphs
+          I decided to continue my education at the university after my graduation in 2019 to get a master's degree.
+
+      - layout: left
+        title: Astrakhan State Technical University
+        caption: 2015 - 2019
+        sub_title: Electronics and electrical engineering
+        quote: >
+          Established in 1930, Astrakhan State Technical University is one of the oldest higher education institutions in the country.
+        description: | # this will include new lines to allow paragraphs
+          During my time at the university I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. 
+          
+          I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+          I got a bachelor degree when I graduated from university.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in mobile development and software engineering some of my other interests and hobbies are:
+      - Traveling 
+      - Snowboarding
+      - [Improving my work-life balance with machine learning of course](https://www.youtube.com/watch?v=Rgx8dpiPwpA){:target="_blank"}
+
+# Footer
+# footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
