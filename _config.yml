@@ -60,7 +60,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   Experience in Microsoft development stack.
 
-  My skils: <mark>C#</mark> <mark>Xamarin.Forms</mark> <mark>Xamarin</mark> <mark>CI/CD</mark> <mark>Design Patterns</mark> <mark>Programming Techniques</mark>.
+  My skils: <mark>C#</mark> <mark>Xamarin.Forms</mark> <mark>Xamarin</mark> <mark>CI/CD</mark> <mark>Design Patterns</mark> <mark>Programming Techniques</mark>
 
 content:
   - title: Projects # Title for the section
@@ -147,7 +147,7 @@ content:
       - layout: left
         title: Astrakhan State Technical University
         caption: 2021 - Present
-        sub_title: Informatics and computer technology.
+        sub_title: Informatics and computer technology
         quote: >
           Established in 1930, Astrakhan State Technical University is one of the oldest higher education institutions in the country.
         description: | # this will include new lines to allow paragraphs
