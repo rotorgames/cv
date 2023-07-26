@@ -72,16 +72,16 @@ content:
         title: Flutter — pigeon with build_runner
         link: https://medium.com/@lkirill/686a7ccfb2ca
         description:
-          Presenting my article on the remarkable self-developed package `pigeon_build_runner` for Flutter. 
+          Presenting my article on the remarkable self-developed package [<mark>pigeon_build_runner</mark>](https://pub.dev/packages/pigeon_build_runner){:target="_blank"} for Flutter. 
           
 
           This insightful piece aims to introduce the package, elucidate the problems it effectively solves, and provide a comprehensive guide on how to seamlessly integrate it into your Flutter projects. 
           
 
-          Moreover, I shed light on some fascinating features of the `build_runner` that are sure to capture your interest. 
+          Moreover, I shed light on some fascinating features of the build_runner that are sure to capture your interest. 
           
           
-          So, let's dive in and explore the world of `pigeon_build_runner` and its contributions to the Flutter ecosystem.
+          So, let's dive in and explore the world of pigeon_build_runner and its contributions to the Flutter ecosystem.
   - title: Open Source Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -91,7 +91,7 @@ content:
         quote: >
           Here's I embarked on a profound journey into the realm of Dart code generation processes and the art of working with native code.
         description: | # this will include new lines to allow paragraphs
-          The `pigeon_build_runner` is a powerful `Dart` package that seamlessly integrates the `pigeon` package with the `build_runner` package, enhancing the efficiency and simplicity of code generation for `Flutter` projects. The package acts as a bridge between pigeon and `build_runner`, streamlining the communication process and automating the code generation workflow.
+          The [<mark>pigeon_build_runner</mark>](https://pub.dev/packages/pigeon_build_runner){:target="_blank"} is a powerful Dart package that seamlessly integrates the pigeon package with the build_runner package, enhancing the efficiency and simplicity of code generation for Flutter projects. The package acts as a bridge between pigeon and build_runner, streamlining the communication process and automating the code generation workflow.
       - layout: left
         title: Rg.Plugins.Popup
         link: github.com/rotorgames/Rg.Plugins.Popup
