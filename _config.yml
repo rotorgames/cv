@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Kirill Lyubimov
+name: Kirill Liubimov
 title: Senior Mobile Developer
 email: dev.lyubimov.kirill@gmail.com
 website: www.lkirill.com
@@ -48,24 +48,50 @@ linkedin_username: kirill-lyubimov-06a68712b
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Kirill and I'm a senior mobile developer. 
-  
-  8+ years of work experience as a software developer.
+  Hi, I'm Kirill, a Senior Mobile Developer with <b>10+ years</b> of software development experience. I specialize in <b>cross-platform</b> mobile development for <b>Android</b> and <b>iOS</b>, with over <b>7 years</b> of dedicated expertise in this field.
 
-  6+ years experience in mobile development for Android, iOS (Xamarin, Xamarin.Forms)
+  My passion for crafting <b>high-performance</b> and <b>user-friendly</b> applications has driven me to stay at the forefront of mobile technology advancements. 
+  Throughout my career, I've successfully delivered <b>cutting-edge</b> solutions that blend seamless functionality with <b>striking design</b>.
 
-  Autor of [the popular library for Xamarin.Forms](https://github.com/rotorgames/Rg.Plugins.Popup){:target="_blank"}.
-  
-  Contributor of Xamarin.Forms.
+  With a deep understanding of both <b>native</b> and <b>hybrid</b> frameworks, I pride myself on creating versatile apps that reach a broader audience without compromising on performance or user experience. 
+  My strong <b>problem-solving</b> skills and <b>attention to detail</b> allow me to tackle complex challenges and <b>optimize application efficiency</b>.
 
-  Experience in Microsoft development stack.
+  As a proactive <b>team player</b>, I thrive in collaborative environments, fostering open communication to ensure projects meet and exceed expectations. 
+  I take great pleasure in <b>mentoring</b> junior developers, <b>sharing my knowledge</b>, and <b>continuously learning</b> from others to stay adaptable in an ever-evolving tech landscape.
 
-  My skils: <mark>C#</mark> <mark>Xamarin.Forms</mark> <mark>Xamarin</mark> <mark>CI/CD</mark> <mark>Design Patterns</mark> <mark>Programming Techniques</mark>
+  I'm eager to contribute my expertise to innovative projects that push the boundaries of mobile development and make a meaningful impact on users' lives. 
+  Let's connect and explore how we can create the next generation of exceptional mobile experiences together.
+
+  My skils: <mark>Dart</mark> <mark>Flutter</mark> <mark>FFI</mark> <mark>C#</mark> <mark>Xamarin.Forms</mark> <mark>Xamarin</mark> <mark>CI/CD</mark> <mark>Design Patterns</mark> <mark>Programming Techniques</mark>
 
 content:
-  - title: Projects # Title for the section
+  - title: Articles
+    layout: list
+    content:
+      - layout: top-middle
+        title: Flutter — pigeon with build_runner
+        link: https://medium.com/@lkirill/686a7ccfb2ca
+        description:
+          Presenting my article on the remarkable self-developed package `pigeon_build_runner` for Flutter. 
+          
+
+          This insightful piece aims to introduce the package, elucidate the problems it effectively solves, and provide a comprehensive guide on how to seamlessly integrate it into your Flutter projects. 
+          
+
+          Moreover, I shed light on some fascinating features of the `build_runner` that are sure to capture your interest. 
+          
+          
+          So, let's dive in and explore the world of `pigeon_build_runner` and its contributions to the Flutter ecosystem.
+  - title: Open Source Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: pigeon_build_runner
+        link: pub.dev/packages/pigeon_build_runner
+        quote: >
+          Here's I embarked on a profound journey into the realm of Dart code generation processes and the art of working with native code.
+        description: | # this will include new lines to allow paragraphs
+          The `pigeon_build_runner` is a powerful `Dart` package that seamlessly integrates the `pigeon` package with the `build_runner` package, enhancing the efficiency and simplicity of code generation for `Flutter` projects. The package acts as a bridge between pigeon and `build_runner`, streamlining the communication process and automating the code generation workflow.
       - layout: left
         title: Rg.Plugins.Popup
         link: github.com/rotorgames/Rg.Plugins.Popup
